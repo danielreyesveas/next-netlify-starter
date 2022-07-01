@@ -1,0 +1,29 @@
+@import url("https://fonts.googleapis.com/css2?family=VT323&display=swap");
+
+@import "./variables";
+@import "./mixins";
+
+// Pages
+@import "./index";
+@import "./details";
+@import "./not-found";
+
+// Components
+@import "../components/Card/card.scss";
+@import "../components/PageLoader/page-loader.scss";
+@import "../components/Spinner/spinner.scss";
+@import "./components/ErrorMessage/error-message.scss";
+
+*,
+*::before,
+*::after {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	font-family: $font-family;
+	color: $font-primary;
+	background: $bg;
+}

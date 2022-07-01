@@ -1,0 +1,39 @@
+.spinner {
+	display: inline-block;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin-left: -50px;
+	margin-top: -50px;
+	animation: scale 1s linear infinite;
+	-webkit-animation: scale 1s linear infinite;
+}
+
+@keyframes scale {
+	0% {
+		-webkit-transform: scale(1);
+	}
+	25% {
+		-webkit-transform: scale(1.25);
+	}
+	50% {
+		-webkit-transform: scale(1.5);
+	}
+	75% {
+		-webkit-transform: scale(1.25);
+	}
+}
+@-webkit-keyframes scale {
+	0% {
+		-webkit-transform: scale(1);
+	}
+	25% {
+		-webkit-transform: scale(1.25);
+	}
+	50% {
+		-webkit-transform: scale(1.5);
+	}
+	75% {
+		-webkit-transform: scale(1.25);
+	}
+}
