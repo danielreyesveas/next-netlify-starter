@@ -11,7 +11,6 @@ const constants = {
 	FILMS_ENDPOINT,
 	DELAY,
 };
-
 export { BASE_URL, PEOPLE_ENDPOINT, FILMS_ENDPOINT, DELAY };
 
 export default constants;
